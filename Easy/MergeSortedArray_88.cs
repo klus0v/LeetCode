@@ -3,12 +3,6 @@
 /// https://leetcode.com/problems/merge-sorted-array/
 public class MergeSortedArray_88
 {
-    public static void Main()
-    {
-        var x = new MergeSortedArray_88();
-        x.Merge(new []{2, 0}, 1, new []{1}, 1);
-    }
-    
     public void Merge(int[] nums1, int m, int[] nums2, int n) 
     {
         var i2 = n-1;
